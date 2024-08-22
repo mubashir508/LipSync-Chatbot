@@ -10,7 +10,7 @@ function App() {
     e.preventDefault();
     setLoading(true);
 
-    const response = await fetch('mzaman.bscs21seecs@seecs.edu.pk/generate-video', {
+    const response = await fetch('mzaman.pythonanywhere.com/generate-video', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
